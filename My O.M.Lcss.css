@@ -1,0 +1,22 @@
+html {
+  background-color: #7d1d1d;
+  color: wheat;
+  font-family: fantasy;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.video-container iframe {
+  margin-right: 50px;
+  border-radius: 25px;
+}
+.video-container iframe:last-child {
+  margin-right: 0;
+  margin: 10px;
+}

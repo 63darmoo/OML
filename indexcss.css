@@ -1,0 +1,120 @@
+.homepage {
+  background-color: #7d1d1d;
+  color: white;
+}
+
+.homepage2 {
+  background-color: #7d1d1d;
+  color: white;
+}
+
+/* styling for subscribe button */
+.subscribe-button {
+  background-color: rgb(224, 33, 12);
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; /* padding is spacing on inside of button */
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+  box-shadow: 10px, 10px, 10px rgba(0,0,0,0.15);
+  animation: shake 0.5s;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.TAB-button {
+background-color: rgb(224, 33, 12);
+color: white;
+cursor: pointer;
+border-radius: 6px;
+border-style: none;
+font-weight: bold;
+font-size: 15px;
+margin-top: 10px;
+display: block;
+margin: auto;
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.TAB-button:hover {
+  opacity: 0.7;
+  box-shadow: 10px, 10px, 10px rgba(0,0,0,0.15);
+  animation: shake 0.5s;
+}
+
+.TAB-button:active {
+  opacity: 0.5;
+}
+/* styling for subscribe button */
+
+
+/* Styling for format */
+.login {
+  margin-left: 1200px;
+}
+
+.aboutme {
+  margin-left: 1200px;
+}
+
+.contactus {
+  margin-left: 1200px;
+}
+
+           
+/* Styling for format */
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  margin-right: 50px;
+  border-radius: 25px;
+}
+.video-container iframe:last-child {
+  margin-right: 0;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  margin: 15px;
+  transition: all 1s;
+  border-radius: 25px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+

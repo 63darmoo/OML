@@ -1,0 +1,73 @@
+html {
+  background-color: #7d1d1d;
+}
+
+.login-box {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #993400;
+  font-family: fantasy;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #993400;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover,
+button[type=reset]:hover {
+  background-color: #45a049;
+  opacity: 0.7;
+}
+
+button[type=submit]:active {
+  opacity: 0.5;
+}
+
+.register-box {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.register {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+html {
+  background-color: #7d1d1d;
+}
+
+.TABpic {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  border-radius: 25px;
+  transition: all 1s;
+  margin-right: 100px;
+}
+
+.TABpic:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  color: wheat;
+  text-align: center;
+  font-size: 46px;
+}
+
+.TABbook {
+  height: 400px;
+  width: 325px;
+  display: flex;
+  border-radius: 25px;
+  margin-right: 0;
+  transition:all 1s
+}
+.TABbook:hover{
+  transform:scale(1.1);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.shopnow {
+  color: wheat;
+  font-size: 28px;
+  font-family: fantasy;
+}
+.shopnowtab:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #993400;
+}
+
