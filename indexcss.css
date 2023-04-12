@@ -140,3 +140,50 @@ img:hover {
   90% { transform: translateX(-10px) rotate(-5deg); }
   100% { transform: translateX(0); }
 }
+
+.main-pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  transition: all 1s;
+  border-radius: 25px;
+}
+
+.main-pic:hover{
+  transform: scale(1.1);
+  box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.25);
+}
+
+.main-pic2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  transition: all 1s;
+  border-radius: 25px;
+}
+
+.main-pic2:hover {
+  transform: scale(1.1);
+  box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.25);
+}
+
+img {
+  margin: 15px;
+}
+
+.Welcome {
+  text-align: center;
+  font-family: fantasy;
+  font-size:x-large;
+  margin-bottom: 25px;
+}
+
+
+
+
