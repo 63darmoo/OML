@@ -41,6 +41,7 @@ header {
   color: wheat;
   font-size: 28px;
   font-family: fantasy;
+  text-align: center;
 }
 .shopnowtab:hover {
   text-decoration: underline;
@@ -48,3 +49,41 @@ header {
   color: #993400;
 }
 
+.Unlock {
+  background: rgb(204, 195, 195);
+  border-radius: 6px;
+  color: black;
+  padding-inline-start: 16px;
+  width: 500px;
+  overflow: hidden;
+  transition: .6s;
+  transform: translate(0);
+  font-weight: 400;
+  height: 300px;
+  font-size: 38px;
+}
+
+.Unlock:hover {
+  color: white;
+}
+
+.Unlock p {
+  margin: 0;
+}
+
+.Unlock::before {
+  content: '';
+  position: absolute;
+  top: -75px;
+  left: -45px;
+  z-index: -1;
+  background: linear-gradient(to right, #ff8882, #ff8882);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: .6s;
+}
+
+.Unlock:hover::before {
+  transform: scale(4.8);
+}

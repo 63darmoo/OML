@@ -7,39 +7,46 @@
   <title>Document</title>
 </head>
 <body>
-  <style>
-    body{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100wh;
-      background-color: orange
-    }
-
-    .reflected {
+<style>
+  .facebook {
+  background: #3b5998;
+  text-indent: -em;
   display: inline-block;
-  width: max-content;
-  padding: 0 10px;
+  width: 90px;
+  height: 100px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid #3b5998;
+  border-bottom: 0;
 }
 
-.reflected >* {
-  font-size: 5em;
-  font-weight: 700;
-  color: white;
+.facebook::before{
+  background: #3b5998;
+  content: "/20";
+  position: absolute;
+  bottom: -30px;
+  right: -37px;
+  width: 40px; 
+  height: 90px;
+  border: 20px solid #eee;
+  border-radius: 25px;
 }
 
-.reflected >:last-child {
-  transform: rotateX(180deg) translateY(28px);
-  mask-image: linear-gradient(transparent 50%, white 90%);
-  -webkit-mask-image: linear-gradient(transparent 50%, white 90%);
-  opacity: 0.72;
+.facebook::after{
+  background: #eee;
+  content: "/20";
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  width: 55px;
+  height: 20px;
 }
-  </style>
-
-
-  <div class="reflected">
-    <div>Dr. Santiago</div>
-    <div>Dr. Santiago</div>
-  </div>
+</style>
+<div>
+  <a href="https://www.facebook.com">
+  <div class="facebook"></div>
+  </a>
+</div>
 </body>
 </html>
