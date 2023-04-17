@@ -21,3 +21,14 @@ html {
   margin-right: 0;
   margin: 10px;
 }
+
+footer {
+  text-align: center;
+  background-color: #202020;
+  color: lightblue;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}

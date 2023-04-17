@@ -61,6 +61,7 @@ header {
   font-weight: 400;
   height: 300px;
   font-size: 38px;
+  
 }
 
 .Unlock:hover {
@@ -69,6 +70,7 @@ header {
 
 .Unlock p {
   margin: 0;
+  
 }
 
 .Unlock::before {
@@ -86,4 +88,15 @@ header {
 
 .Unlock:hover::before {
   transform: scale(4.8);
+}
+
+footer {
+  text-align: center;
+  background-color: #202020;
+  color: lightblue;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
