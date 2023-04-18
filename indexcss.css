@@ -184,7 +184,7 @@ img {
   text-align: center;
   font-family: fantasy;
   font-size:27px;
-  margin-bottom: 25px;
+  margin-bottom: 25px; 
 }
 
 footer {
@@ -197,4 +197,24 @@ footer {
   width: 100%;
   left: 0;
   
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 44, 44);
+}
+
+.youtubecontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.youtubeheader {
+   font-size: 90px;
 }
